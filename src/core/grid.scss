@@ -1,0 +1,58 @@
+/*!
+ * Griddox v4.4.1 (https://lp.webizzart.com/griddox/)
+ * Copyright 2019 The WebizzArt Authors
+ * Licensed under MIT
+ !*/
+$sm: 576;
+$md: 768;
+$lg: 992;
+$xl: 1200;
+$grids: 12;
+
+$map-grid-props: (
+        '-xs': 0,
+        '-sm': $sm,
+        '-md': $md,
+        '-lg': $lg,
+        '-xl': $xl
+)!default;
+
+@mixin make-mq($breakpoint, $min-or-max) {
+  @if($breakpoint == 0) {
+    @content;
+  } @else {
+    @media screen and (#{$min-or-max}-width: $breakpoint *1px) {
+      @content;
+    }
+  }
+}
+
+@mixin make-col($modifier, $grid-cols, $breakpoint) {
+  @include make-mq($breakpoint, 'min') {
+    @for $index from 1 through $grid-cols {
+      &#{$modifier}-#{$index} {
+        flex-basis: (100 / ($grid-cols / $index) ) * 1%;
+      }
+    }
+  }
+}
+
+@mixin make-container() {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .container {
+    @include make-container();
+  }
+  .col {
+    max-width: $md * 1px;
+    margin: 0 auto;
+   
+@each $modifier , $breakpoint in $map-grid-props {
+    @include make-col($modifier, $grids, $breakpoint);
+  }
+}
+
+
+ 

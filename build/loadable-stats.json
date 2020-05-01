@@ -1,0 +1,354 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.42.1",
+  "hash": "8ce6563970a1452a3bed",
+  "publicPath": "http://localhost:3001/",
+  "outputPath": "C:\\Users\\Shakerdl\\Documents\\Projects\\claremont-web\\build\\public",
+  "assetsByChunkName": {
+    "client": [
+      "static/js/client.chunk.js",
+      "static/js/client.chunk.js.map"
+    ],
+    "pages-About-About": [
+      "static/js/pages-About-About.chunk.js",
+      "static/js/pages-About-About.chunk.js.map"
+    ],
+    "pages-Home-Home": [
+      "static/js/pages-Home-Home.chunk.js",
+      "static/js/pages-Home-Home.chunk.js.map"
+    ],
+    "pages-NotFound-NotFound": [
+      "static/js/pages-NotFound-NotFound.chunk.js",
+      "static/js/pages-NotFound-NotFound.chunk.js.map"
+    ],
+    "pages-Services-Services": [
+      "static/js/pages-Services-Services.chunk.js",
+      "static/js/pages-Services-Services.chunk.js.map"
+    ],
+    "runtime~client": [
+      "static/js/runtime~client.js",
+      "static/js/runtime~client.js.map"
+    ],
+    "vendors~client": [
+      "static/js/vendors~client.chunk.js",
+      "static/js/vendors~client.chunk.js.map"
+    ],
+    "vendors~pages-Home-Home": [
+      "static/js/vendors~pages-Home-Home.chunk.js",
+      "static/js/vendors~pages-Home-Home.chunk.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "static/js/client.chunk.js",
+      "size": 48517,
+      "chunks": [
+        "client"
+      ],
+      "chunkNames": [
+        "client"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/client.chunk.js.map",
+      "size": 28867,
+      "chunks": [
+        "client"
+      ],
+      "chunkNames": [
+        "client"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/pages-About-About.chunk.js",
+      "size": 1817,
+      "chunks": [
+        "pages-About-About"
+      ],
+      "chunkNames": [
+        "pages-About-About"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/pages-About-About.chunk.js.map",
+      "size": 588,
+      "chunks": [
+        "pages-About-About"
+      ],
+      "chunkNames": [
+        "pages-About-About"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/pages-Home-Home.chunk.js",
+      "size": 15310,
+      "chunks": [
+        "pages-Home-Home"
+      ],
+      "chunkNames": [
+        "pages-Home-Home"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/pages-Home-Home.chunk.js.map",
+      "size": 5589,
+      "chunks": [
+        "pages-Home-Home"
+      ],
+      "chunkNames": [
+        "pages-Home-Home"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/pages-NotFound-NotFound.chunk.js",
+      "size": 2041,
+      "chunks": [
+        "pages-NotFound-NotFound"
+      ],
+      "chunkNames": [
+        "pages-NotFound-NotFound"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/pages-NotFound-NotFound.chunk.js.map",
+      "size": 715,
+      "chunks": [
+        "pages-NotFound-NotFound"
+      ],
+      "chunkNames": [
+        "pages-NotFound-NotFound"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/pages-Services-Services.chunk.js",
+      "size": 1874,
+      "chunks": [
+        "pages-Services-Services"
+      ],
+      "chunkNames": [
+        "pages-Services-Services"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/pages-Services-Services.chunk.js.map",
+      "size": 612,
+      "chunks": [
+        "pages-Services-Services"
+      ],
+      "chunkNames": [
+        "pages-Services-Services"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/runtime~client.js",
+      "size": 35074,
+      "chunks": [
+        "runtime~client"
+      ],
+      "chunkNames": [
+        "runtime~client"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/runtime~client.js.map",
+      "size": 36402,
+      "chunks": [
+        "runtime~client"
+      ],
+      "chunkNames": [
+        "runtime~client"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/vendors~client.chunk.js",
+      "size": 2304234,
+      "chunks": [
+        "vendors~client"
+      ],
+      "chunkNames": [
+        "vendors~client"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/vendors~client.chunk.js.map",
+      "size": 2535601,
+      "chunks": [
+        "vendors~client"
+      ],
+      "chunkNames": [
+        "vendors~client"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/js/vendors~pages-Home-Home.chunk.js",
+      "size": 128438,
+      "chunks": [
+        "vendors~pages-Home-Home"
+      ],
+      "chunkNames": [
+        "vendors~pages-Home-Home"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "static/js/vendors~pages-Home-Home.chunk.js.map",
+      "size": 135203,
+      "chunks": [
+        "vendors~pages-Home-Home"
+      ],
+      "chunkNames": [
+        "vendors~pages-Home-Home"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "static/media/test-cafe.1ee0a0c1.png",
+      "size": 2974120,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "client": {
+      "chunks": [
+        "runtime~client",
+        "vendors~client",
+        "client"
+      ],
+      "assets": [
+        "static/js/runtime~client.js",
+        "static/js/runtime~client.js.map",
+        "static/js/vendors~client.chunk.js",
+        "static/js/vendors~client.chunk.js.map",
+        "static/js/client.chunk.js",
+        "static/js/client.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "client": {
+      "chunks": [
+        "runtime~client",
+        "vendors~client",
+        "client"
+      ],
+      "assets": [
+        "static/js/runtime~client.js",
+        "static/js/runtime~client.js.map",
+        "static/js/vendors~client.chunk.js",
+        "static/js/vendors~client.chunk.js.map",
+        "static/js/client.chunk.js",
+        "static/js/client.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-Home-Home": {
+      "chunks": [
+        "vendors~pages-Home-Home",
+        "pages-Home-Home"
+      ],
+      "assets": [
+        "static/js/vendors~pages-Home-Home.chunk.js",
+        "static/js/vendors~pages-Home-Home.chunk.js.map",
+        "static/js/pages-Home-Home.chunk.js",
+        "static/js/pages-Home-Home.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-Services-Services": {
+      "chunks": [
+        "pages-Services-Services"
+      ],
+      "assets": [
+        "static/js/pages-Services-Services.chunk.js",
+        "static/js/pages-Services-Services.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-About-About": {
+      "chunks": [
+        "pages-About-About"
+      ],
+      "assets": [
+        "static/js/pages-About-About.chunk.js",
+        "static/js/pages-About-About.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "pages-NotFound-NotFound": {
+      "chunks": [
+        "pages-NotFound-NotFound"
+      ],
+      "assets": [
+        "static/js/pages-NotFound-NotFound.chunk.js",
+        "static/js/pages-NotFound-NotFound.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}
